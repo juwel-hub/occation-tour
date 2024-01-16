@@ -377,6 +377,56 @@ button {
   margin-top: 20px;
   /* margin-bottom: 0px; */
 }
+/* artical section  */
+.container {
+  max-width: 1440px;
+  width: 100%;
+}
+.artical-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.artical-title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.artical-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.artical-card {
+  width: 300px;
+  /* border: 1px solid gray; */
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
+  padding: 20px;
+}
+.artical-time {
+  font-size: 18px;
+  font-weight: 600;
+}
+.artical-title {
+  font-size: 28px;
+  font-weight: 800px;
+}
+.artical-description {
+  max-width: 300px;
+  font-weight: 400px;
+  margin: 10px 0;
+}
+.artical-card img {
+  max-width: 250px;
+  border-radius: 10px;
+}
+.artical-card > button {
+  background-color: #ff5400;
+  color: #fff;
+  cursor: pointer;
+}
 /* perfect section  */
 .perfect-area {
   display: flex;

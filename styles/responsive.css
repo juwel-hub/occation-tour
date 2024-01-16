@@ -258,6 +258,10 @@
     height: 1px;
     margin: 10px auto;
   }
+  .artical-container {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
   /* footer  */
   footer {
     /* width: 335px; */
