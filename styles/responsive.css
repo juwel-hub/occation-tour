@@ -11,18 +11,22 @@
     max-height: 100%;
   }
   .fa-bars {
-    font-size: 40px;
+    font-size: 20px;
   }
-  .nav-bar{
+  .nav-bar {
     margin: 0 auto;
     width: 300px;
   }
-  .icon{
-    font-size: 20px;
-    font-weight: 800;
+  .nav-bar img {
+    width: 28px;
   }
+  .nav-bar h1,
+  .tour {
+    font-size: 20px;
+  }
+
   .banner-info {
-    width: 335px;
+    width: 300px;
     height: 520px;
     border-radius: 16px;
     margin: 0 auto;
@@ -33,7 +37,7 @@
     padding-bottom: 10px;
   }
   .banner-description {
-    width: 300px;
+    width: 230px;
     margin-bottom: 10px;
   }
   .banner-info ul,
@@ -61,7 +65,7 @@
     text-align: left;
   }
   .tour-description {
-    width: 335px;
+    /* width: 335px; */
   }
   /* destination section  */
   .destination-info .dest-description,
@@ -141,18 +145,18 @@
   .tour-info-2 {
     width: 300px;
     height: 297px;
-    position: relative;
-    left: -40px;
+    position: absolute;
+    left: 16px;
     top: 100px;
     overflow: hidden;
     padding: 10px;
   }
   .tour-info-3 {
-    width: 300px;
-    height: 297px;
+    /* width: 300px; */
+    /* height: 297px; */
     position: relative;
     left: -40px;
-    top: 110px;
+    top: 15px;
     overflow: hidden;
     padding: 10px;
   }
@@ -178,7 +182,7 @@
     font-weight: 700;
   }
   /* perfect  */
-  .newslerer-container{
+  .newslerer-container {
     margin: 0 auto;
   }
   .perfect-area {
@@ -189,7 +193,7 @@
     width: 250px;
     font-size: 14px;
   }
-  .perfect-info> .tour-title{
+  .perfect-info > .tour-title {
     width: 280px;
   }
   .perfect-info > ul > li {
@@ -202,9 +206,8 @@
     height: 52px;
     font-size: 20px;
     font-weight: 800;
-    
   }
-  .perfect-img video{
+  .perfect-img video {
     width: 260px;
     border-radius: 16px;
   }
@@ -213,73 +216,74 @@
     flex-direction: column;
     margin-bottom: 10px;
   }
-  .news-info{
+  .news-info {
+    max-width: 300px;
+  }
+  .news-img img {
     width: 260px;
   }
-  .news-img img{
-    width:260px ;
-  }
-  .travel-save{
+  .travel-save {
     width: 200px;
     height: 75px;
     position: absolute;
     top: 500px;
     left: 200px;
-    padding-top: 10px ;
+    padding-top: 10px;
   }
-  .travel-save>h4{
-font-size: 15px;
-font-weight: 400;
+  .travel-save > h4 {
+    font-size: 15px;
+    font-weight: 400;
   }
-  .travel-save>h1{
-font-size: 20px;
-font-weight: 800;
+  .travel-save > h1 {
+    font-size: 20px;
+    font-weight: 800;
   }
-  .newslerer-container{
-margin: 0 auto;
+  .newslerer-container {
+    margin: 0 auto;
   }
-  .news-info input{
-   
+  .news-info input {
     margin-bottom: 10px;
     padding-left: 10px;
   }
-  .news-info .news-form{
-    width: 220px;
+  .news-info .news-form {
+    width: 86%;
   }
-  .news-info .button-news{
-    width: 220px;
+  .news-info .button-news {
+    width: 86%;
     font-weight: 700;
     font-size: 15px;
-    
   }
-  .news-info>.news-hr {
+  .news-info > .news-hr {
     width: 220px;
     height: 1px;
     margin: 10px auto;
   }
   /* footer  */
-  footer{
+  footer {
+    /* width: 335px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  hr {
     width: 335px;
   }
-  hr{
-    width:335px ;
+  .footer-info {
+    padding: 10px 0;
+    margin: 0 auto;
   }
-  .footer-info{
-padding: 10px 0;
-margin: 0 auto;
+  .title-and-img > h1 {
+    font-size: 20px;
+    font-weight: 800px;
+    margin: 0;
+    padding: 0;
   }
-  .title-and-img>h1{
-font-size: 20px;
-font-weight: 800px;
-margin: 0;
-padding: 0;
-  }
-  .footer-description{
-    width: 280px;
+  .footer-description {
+    /* width: 280px; */
+    padding: 0 120px;
     font-size: 14px;
-
   }
-  .footer-info>ul>li{
+  .footer-info > ul > li {
     margin-right: 20px;
     font-size: 20px;
     margin-bottom: 20px;

@@ -18,17 +18,17 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 50px 0 60px 0;
- 
 }
 .icon {
   display: flex;
   align-items: center;
   gap: 16px;
 }
-#toogler, label{
+#toogler,
+label {
   display: none;
 }
-label i{
+label i {
   color: black;
 }
 .nav-title {
@@ -126,6 +126,7 @@ button {
 }
 .tour-info {
   margin-right: 50px;
+  width: 100%;
 }
 .tour-title {
   color: #131318;
@@ -138,7 +139,7 @@ button {
   color: rgba(19, 19, 24, 0.7);
   line-height: 26px;
   margin-bottom: 24px;
-  width: 570px;
+  /* width: 570px; */
 }
 .tour-info > ul > li {
   color: rgba(19, 19, 24, 0.7);
@@ -156,6 +157,10 @@ button {
   width: 100%;
 }
 /* destination section  */
+.destination {
+  position: relative;
+}
+
 .destination-info {
   text-align: center;
 }
@@ -178,80 +183,42 @@ button {
 .box1 {
   grid-column: 1 / span 6;
 }
-.box1 > h2 {
-  position: absolute;
-  top: 250px;
-  left: 300px;
-  color: #fff;
-  font-size: 28px;
-  font-weight: 800;
-}
+
 .box2 {
   grid-column: 7/-1;
 }
-.box2 > h2 {
-  position: absolute;
-  top: 250px;
-  right: 300px;
-  color: #fff;
-  font-size: 28px;
-  font-weight: 800;
-}
+
 .box3 {
   grid-column: 1 / span 4;
-}
-.box3 > h2 {
-  position: absolute;
-  color: #fff;
-  top: 700px;
-  left: 150px;
-  font-size: 28px;
-  font-weight: 800;
 }
 .box4 {
   grid-column: 5 / span 5;
 }
-.box4 > h2 {
-  position: absolute;
-  color: #fff;
-  top: 700px;
-  left: 650px;
-  font-size: 28px;
-  font-weight: 800;
-}
+
 .box5 {
   grid-column: 10 / span 3;
 }
-.box5 > h2 {
-  position: absolute;
-  color: #fff;
-  top: 700px;
-  right: 120px;
-  font-size: 28px;
-  font-weight: 800;
-}
+
 .box6 {
+  position: relative;
   grid-column: 1 / span 6;
-}
-.box6 > h2 {
-  position: absolute;
-  color: #fff;
-  top: 1180px;
-  left: 300px;
-  font-size: 28px;
-  font-weight: 800;
 }
 .box7 {
   grid-column: 7 / span5;
 }
-.box7 > h2 {
+.destination-card {
+  position: relative;
+}
+.destination-text {
   position: absolute;
   color: #fff;
-  top: 1180px;
-  right: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
   font-weight: 800;
 }
+
 /* choosing section  */
 .choose-info {
   margin-top: 100px;
@@ -310,7 +277,7 @@ button {
 }
 
 /* Deals and descount section  */
-.deals-info{
+.deals-info {
   margin-top: 100px;
 }
 .tour-container-1 {
@@ -318,23 +285,48 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   padding: 55px;
+  position: relative;
+  min-height: 500px;
 }
-.tour-container-2{
+.tour-container-2 {
   background-image: url("../Images/Group 39.png");
   background-repeat: no-repeat;
   background-position: center;
-  padding: 55px;
+  /* padding: 55px; */
+  margin: 40px 0;
+  position: relative;
+  min-height: 500px;
 }
-.tour-container-3{
+.tour-container-3 {
   background-image: url("../Images/Group 39.png");
   background-repeat: no-repeat;
   background-position: center;
   padding: 55px;
   margin-bottom: 100px;
-}
-.tour-info-1,.tour-info-3{
   position: relative;
-  left: 600px;
+  min-height: 500px;
+}
+.tour-img {
+  width: 100%;
+}
+.tour-info-1,
+.tour-info-3 {
+  position: absolute;
+  right: 190px;
+  max-width: 600px;
+  width: 100%;
+  min-width: 300px;
+  max-height: 700px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 40px;
+}
+.tour-info-2 {
+  position: absolute;
+  left: 190px;
+  top: 26px;
   width: 579px;
   height: 389px;
   border-radius: 16px;
@@ -342,58 +334,48 @@ button {
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
   padding: 40px;
+  margin: 24px 0;
 }
-.tour-info-2{
-  position: relative;
-  right: -140px;
-  width: 579px;
-  height: 389px;
-  border-radius: 16px;
-  border: 2px solid #fff;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(2.5px);
-  padding: 40px;
-  margin:24px 0 ;
-} 
 .deals-info > p {
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
   line-height: 26px;
   margin-bottom: 45px;
 }
-.coxbazar>ul{
+.coxbazar > ul {
   display: flex;
   align-items: center;
 }
-.coxbazar>ul>li{
+.coxbazar > ul > li {
   list-style: none;
-  margin-right:24px ;
+  margin-right: 24px;
   margin-bottom: 10px;
 }
-.coxbazar>ul>li>.fa-solid {
-color: #ff5400;
-margin-right: 10px;
-font-size: 20px;
+.coxbazar > ul > li > .fa-solid {
+  color: #ff5400;
+  margin-right: 10px;
+  font-size: 20px;
 }
-.coxbazar>h3{
+.coxbazar > h3 {
   margin-bottom: 10px;
 }
-.coxbazar>p{
-  width: 450px;
+.coxbazar > p {
+  max-width: 450px;
+  width: 100%;
 }
-.coxbazar>h2{
-  color: #FF5400;
-font-size: 20px;
-font-weight: 800;
+.coxbazar > h2 {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
 }
-.coxbazar>button{
+.coxbazar > button {
   border-radius: 8px;
-  background: #FF5400;
+  background: #ff5400;
   font-weight: 800;
   font-size: 20px;
   color: #fff;
   margin-top: 20px;
-  margin-bottom: 30px;
+  /* margin-bottom: 0px; */
 }
 /* perfect section  */
 .perfect-area {
@@ -441,6 +423,9 @@ font-weight: 800;
   height: 420px;
   padding-top: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .news-info input {
   display: block;
@@ -449,10 +434,10 @@ font-weight: 800;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   color: rgba(19, 19, 24, 0.3);
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 .news-info .news-form {
-  width: 390px;
+  width: 86%;
   height: 40px;
   border: none;
 }
