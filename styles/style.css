@@ -292,7 +292,7 @@ button {
   background-image: url("../Images/Group 39.png");
   background-repeat: no-repeat;
   background-position: center;
-  /* padding: 55px; */
+  padding: 55px;
   margin: 40px 0;
   position: relative;
   min-height: 500px;
@@ -309,7 +309,20 @@ button {
 .tour-img {
   width: 100%;
 }
-.tour-info-1,
+.tour-info-1 {
+  position: absolute;
+  right: 190px;
+  max-width: 600px;
+  width: 100%;
+  min-width: 300px;
+  max-height: 700px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 40px;
+}
+
 .tour-info-3 {
   position: absolute;
   right: 190px;
@@ -326,15 +339,17 @@ button {
 .tour-info-2 {
   position: absolute;
   left: 190px;
-  top: 26px;
-  width: 579px;
-  height: 389px;
+  /* top: 26px; */
+  max-width: 600px;
+  width: 100%;
+  min-width: 300px;
+  max-height: 700px;
   border-radius: 16px;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
   padding: 40px;
-  margin: 24px 0;
+  /* margin: 24px 0; */
 }
 .deals-info > p {
   color: rgba(19, 19, 24, 0.7);
